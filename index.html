@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Streak Box</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="streak-box">
+    <div class="section total">
+      <h2>Total Contributions</h2>
+      <p id="total">--</p>
+    </div>
+
+    <div class="section current">
+      <h2>🔥 Current Streak</h2>
+      <p id="current">--</p>
+    </div>
+
+    <div class="section longest">
+      <h2>🏆 Longest Streak</h2>
+      <p id="longest">--</p>
+      <small id="longest-dates">--</small>
+    </div>
+  </div>
+
+  <script>
+    fetch("data.json")
+
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById("current").innerText = data.current_streak + " days";
+        document.getElementById("longest").innerText = data.longest_streak + " days";
+        document.getElementById("longest-dates").innerText = `(${data.longest_start} → ${data.longest_end})`;
+        document.getElementById("total").innerText = data.total_contributions + " commits";
+      });
+  </script>
+</body>
+</html>
