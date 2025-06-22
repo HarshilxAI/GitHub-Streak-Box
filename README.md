@@ -46,16 +46,6 @@ This project helps you monitor your GitHub activity in a stylish format and is f
 
 ---
 
-## 📂 Folder Structure
-
-GHB_Streak_Box/
-│
-├── app.py # Main Python script to fetch contribution data
-├── streak_utils.py # Helper functions for streak calculation
-├── web/
-│ ├── index.html # Main webpage displaying streak data
-│ ├── style.css # Styling for the webpage
-│ └── data.json # Stores contribution data to be displayed
 
 🌐 Live Preview
 🔗 See it live here
