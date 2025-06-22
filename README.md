@@ -47,8 +47,10 @@ This project helps you monitor your GitHub activity in a stylish format and is f
 ---
 
 
-🌐 Live Preview
-🔗 See it live here
-👉 https://streak-box-denny.netlify.app
+## 🌐 Live Preview
+
+[![See it Live on Netlify](https://img.shields.io/badge/🔗 See it Live on Netlify-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7&labelColor=ADD8E6)](https://streak-box-denny.netlify.app)
+
+
 
 
