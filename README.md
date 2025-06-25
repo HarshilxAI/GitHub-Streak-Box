@@ -1,4 +1,4 @@
-# 🔥 GitHub Streak Box
+# 🔥 GitHub Streak Box 🔥
 
 A clean and customizable GitHub contribution tracker that visually displays your:
 
