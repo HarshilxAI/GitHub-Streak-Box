@@ -1,4 +1,4 @@
-# 🔥 GitHub Streak Box
+# 🔥 GitHub Streak Box 🔥
 
 > A clean and customizable GitHub streak tracker for your profile
 
@@ -60,7 +60,8 @@ If you’d like to contribute, feel free to fork the repo and raise a PR.
 ## 👤 OWNER  
 **Harshil Gurjar**  
 
-📧 Email: [hdgurjar2323@gmail.com](mailto:hdgurjar2323@gmail.com)  
-🔗 LinkedIn: [https://www.linkedin.com/in/harshil-gurjar23/](https://www.linkedin.com/in/harshil-gurjar23/)  
+📧 **Email:** [hdgurjar2323@gmail.com](mailto:hdgurjar2323@gmail.com)  
+🔗 **LinkedIn:** [https://www.linkedin.com/in/harshil-gurjar23/](https://www.linkedin.com/in/harshil-gurjar23/)  
+
 
 ---
