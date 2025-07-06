@@ -1,57 +1,66 @@
-# 🔥 GitHub Streak Box 🔥
+# 🔥 GitHub Streak Box
 
-A clean and customizable GitHub contribution tracker that visually displays your:
+> A clean and customizable GitHub streak tracker for your profile
 
-- ✅ Current Streak
-- ✅ Longest Streak (with start and end dates)
-- ✅ Total Contributions
-
-This project helps you monitor your GitHub activity in a stylish format and is fully deployable on the web. Easily link it to your GitHub profile README and keep your streak updated daily!
-
----
-
-## 🎯 Features
-
-- 🔥 Displays your current contribution streak
-- 📅 Shows the longest streak with accurate start–end dates
-- 📈 Total contributions counter
-- 🌈 Responsive and minimal UI
-- 🛠 Manual JSON-based updating system
-- 🌐 Live deployable via Netlify (or any static host)
-- 🧩 Easily embeddable in your GitHub README
+## 📄 Description
+GitHub Streak Box is a simple web tool that displays your GitHub activity streaks — including current streak, longest streak with dates, and total contributions.  
+It uses GitHub's API to fetch your contribution data and displays it in a clean, styled webpage.  
+This project helps you keep track of your daily consistency and motivates you to stay active on GitHub.  
+It's fully customizable and can be embedded into your GitHub profile.  
 
 ---
 
-## 🧠 How It Works
-
-- A Python script (`app.py`) uses GitHub’s GraphQL API to fetch your contribution data.
-- It extracts:
-  - Contributions from the past 7 days
-  - Longest streak duration with date range
-  - Current active streak
-- The data is saved into a JSON file (`data.json`)
-- An HTML/CSS page (`index.html`) reads the JSON and displays it in a user-friendly format
-- The site is hosted using Netlify and linked to your GitHub for easy updates
+## 🌐 Live Demo  
+👉 [View Live Preview Here](https://streak-box-denny.netlify.app)  
 
 ---
 
-## ⚙️ Tech Stack Used
+## ✨ Features
 
-- **Python** – Backend logic and GitHub API handling
-- **GraphQL API** – For fetching GitHub contributions
-- **HTML + CSS** – For UI layout and styling
-- **JavaScript** – For reading and displaying JSON data
-- **JSON** – Stores contribution data
-- **Netlify** – For deployment and live hosting
+- 🔥 Tracks and displays your current GitHub contribution streak  
+- 🏆 Shows your longest streak with start and end dates  
+- 📊 Displays total contributions and updates data from a JSON file  
 
 ---
 
+## 🛠 Tech Stack
 
-## 🌐 Live Preview
+### Frontend:
+- HTML  
+- CSS  
+- JavaScript  
 
-**👉 [View live preview here](https://streak-box-denny.netlify.app)**
+### Backend:
+- Python  
 
+### Libraries / APIs:
+- `gql` for GraphQL API access  
+- `requests` for API calls  
+- `python-dotenv` for token management  
+- GitHub GraphQL API  
 
+---
 
+## 📘 What I Learned
 
+- How to use GraphQL to fetch GitHub user data  
+- Working with JSON for data storage and frontend integration  
+- Deploying projects on Netlify and connecting GitHub repos  
+- Creating structured, responsive UIs with clean HTML/CSS  
 
+---
+
+## 🤝 Contributions
+
+This is a solo-built project, but improvements, suggestions, and pull requests are welcome!  
+If you’d like to contribute, feel free to fork the repo and raise a PR.  
+
+---
+
+## 👤 OWNER  
+**Harshil Gurjar**  
+
+📧 Email: [hdgurjar2323@gmail.com](mailto:hdgurjar2323@gmail.com)  
+🔗 LinkedIn: [https://www.linkedin.com/in/harshil-gurjar23/](https://www.linkedin.com/in/harshil-gurjar23/)  
+
+---
