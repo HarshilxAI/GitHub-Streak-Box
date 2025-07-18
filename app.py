@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 from gql import gql, Client
 from gql.transport.requests import RequestsHTTPTransport
 
-# Load the token
+
 load_dotenv()
 TOKEN = os.getenv("GITHUB_TOKEN")
 
-# Set up GraphQL client
+
 transport = RequestsHTTPTransport(
     url='https://api.github.com/graphql',
     headers={'Authorization': f'Bearer {TOKEN}'},
@@ -16,10 +16,10 @@ transport = RequestsHTTPTransport(
 
 client = Client(transport=transport, fetch_schema_from_transport=True)
 
-# ✅ Updated GitHub username
+
 USERNAME = "HarshilxAI"
 
-# Define GraphQL query
+
 query = gql(f"""
 {{
   user(login: "{USERNAME}") {{
