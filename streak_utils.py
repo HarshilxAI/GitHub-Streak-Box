@@ -7,7 +7,7 @@ def calculate_streaks(contributions):
     longest_streak = 0
     temp_streak = 0
     temp_start = None
-    longest_start = None
+    longest_start = None    
     longest_end = None
 
     today = datetime.utcnow().date()
